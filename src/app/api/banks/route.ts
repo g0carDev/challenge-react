@@ -1,6 +1,6 @@
 
 export async function GET(request: Request) {
-    const res = await fetch('https://dev.obtenmas.com/catom/api/challenge/banks', {
+    const res = await fetch(`${process.env.API_URL}/banks`, {
         headers: {
           'Content-Type': 'application/json',
         },
