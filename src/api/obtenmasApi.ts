@@ -1,5 +1,5 @@
-import { EnvConstants } from "@/constants";
 import axios from "axios";
+import { EnvConstants } from "@/constants";
 
 export const obtenmasApi = axios.create({
     baseURL: EnvConstants.BACKEND.API,
