@@ -1,4 +1,4 @@
-# Challenge React
+# React Challenge
 
 ## Getting Started
 
